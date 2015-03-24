@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Алтайские мельницы</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=1280, user-scalable=yes">
+	<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="./css/style.css" rel="stylesheet" type="text/css" title="compact">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h3>Экспорт высококачественных продуктов зернопереработки</h3>
+			<a href="#"><img src="./img/logo.png" width="96" height="102" class="logo" alt=""></a>
+			<ul class="ml">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Компания</a></li>
+			</ul>
+			<ul class="mr">
+				<li><a href="#">Продукция</a></li>
+				<li class="active"><a href="#">Контакты</a></li>
+			</ul>
+			<h5>
+				<span class="active">Ru</span>
+				<span>En</span>
+			</h5>
+			<div>
+				<p>Тел.: +7 (3852) 538-831</p>
+				<p><i>afm@altaimills.ru</i></p>
+			</div>
+			<button>Напишите нам</button>
+		</div>
+		<div class="contactus">
+			<div id="map">
+				<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+				<script type="text/javascript">
+					ymaps.ready(init);
+					function init() {
+						var map = new ymaps.Map('map', {
+							center: [53.32656294, 83.67887451],
+							zoom: 16
+						});
+						var barnaul = new ymaps.Placemark([53.33066294, 83.67517451], {}, {
+							iconLayout: 'default#image',
+							iconImageHref: './img/mark_icon.png',
+							iconImageSize: [76, 77],
+							iconImageOffset: [-38, -77],
+							hideIconOnBalloonOpen: false
+						});
+						map.geoObjects.add(barnaul);
+						map.controls.remove('fullscreenControl').remove('geolocationControl').remove('searchControl').remove('trafficControl').remove('typeSelector').remove('zoomControl').remove('rulerControl');
+					}
+				</script>
+			</div>
+			<div class="information">
+				<div>
+					<div class="office">
+						<h2><span>Головной офис</span></h2>
+						<div>
+							<p>
+								<em>
+									<img src="./img/office_icon1.png" width="11" height="16" alt="">
+								</em>
+								<strong>Адрес -</strong>
+								<span>РФ, 656058, Г. БАРНАУЛ, УЛ. ШУМАКОВА, 74Б, ОФ. 15</span>
+							</p>
+							<p>
+								<em>
+									<img src="./img/office_icon2.png" width="16" height="16" alt="">
+								</em>
+								<strong>Телефон</strong>
+								<span>+7 (3852) 538-831, 538-832</span>
+							</p>
+							<p>
+								<em>
+									<img src="./img/office_icon3.png" width="20" height="16" alt="">
+								</em>
+								<strong>Факс</strong>
+								<span>+7 (3852) 538-832</span>
+							</p>
+							<p>
+								<em>
+									<img src="./img/office_icon4.png" width="16" height="12" alt="">
+								</em>
+								<strong>Электронная почта</strong>
+								<span>afm@altaimills.ru, bvu@altaimills.ru</span>
+							</p>
+							<p>
+								<em>
+									<img src="./img/office_icon5.png" width="16" height="16" alt="">
+								</em>
+								<strong>Официальный сайт</strong>
+								<span>www.altaimills.ru</span>
+							</p>
+							<p>
+								<em>
+									<img src="./img/office_icon6.png" width="16" height="16" alt="">
+								</em>
+								<strong>Страница на Facebook</strong>
+								<span>FACEBOOK.COM/ALTAIFLOURMILLS</span>
+							</p>
+						</div>
+					</div>
+					<div class="agent">
+						<h2><span><strong>Представитель в Москве <em>Дворник Вячеслав Николаевич</em></strong></span></h2>
+						<div>
+							<p>
+								<em>
+									<img src="./img/office_icon2.png" width="16" height="16" alt="">
+								</em>
+								<strong>Телефон</strong>
+								<span>+7-926-225-9854</span>
+							</p>
+							<p>
+								<em>
+									<img src="./img/office_icon4.png" width="16" height="12" alt="">
+								</em>
+								<strong>Электронная почта</strong>
+								<span>dvn@altaimills.ru</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="address">
+			<p>Все права защищены © 2009-2015</p>
+			<p>ООО «Алтайские мельницы»</p>
+			<p>РФ, 656058, г. Барнаул, ул. Шумакова, д. 74б, оф. 15</p>
+		</div>
+		<div class="contacts">
+			<p>Телефоны: <strong>+7 (3852) 538-831, 538-832</strong></p>
+			<p>Факс: <strong>+7 (3852) 538-832</strong></p>
+			<p class="email"><i>alm@altaimills.ru; bvu@altaimills.ru</i></p>
+		</div>
+		<h5><span>Разработка сайта:</span> - <a href="http://letsrock.pro" target="_blank"><img src="./img/letsrock_logo.png" width="89" height="22" alt=""></a></h5>
+	</div>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/drawdoughnutchart.js"></script>
+	<script type="text/javascript" src="./js/easing.js"></script>
+	<script type="text/javascript" src="./js/slides.js"></script>
+	<script type="text/javascript" src="./js/dynamic.js"></script>
+</body>
+</html>
